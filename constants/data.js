@@ -8,19 +8,19 @@ const userData = {
   address: "New york, NY",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "Personal site",
+      link: "ronnycoste.com",
+      imgUrl: "/Portfolio.jpg",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Lifecycle",
+      link: "lifecycle380.heroku.app",
+      imgUrl: "/lifecycle.png",
     },
     {
-      title: "Portfolio",
+      title: "Hackathon - reVive",
       link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      imgUrl: "/revive.png",
     },
     {
       title: "CovidRescue",
