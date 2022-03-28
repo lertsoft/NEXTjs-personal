@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
+  githubUsername: "lertsoft",
+  name: "Ronny Coste",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "hello@ronnycoste.com",
+  phone: "+1 201-473-2041",
+  address: "New york, NY",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -104,12 +104,12 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://docs.google.com/document/d/1hsroxazSC8G1tRMweraSicSZWmVLqG7tHHrRo5z6NG8/edit?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
+    instagram: "https://instagram.com/costeronny",
+    twitter: "https://twitter.com/costeronny",
+    linkedin: "https://linkedin.com/in/ronnycoste",
+    github: "https://github.com/lertsoft",
     facebook: "https://facebook.com/",
   },
 };
