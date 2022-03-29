@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
-
+// Favorite projects that i have worked component.
+// Fetches data from github and display it here.
 export default function FavoriteProjects() {
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">

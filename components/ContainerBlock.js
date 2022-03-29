@@ -5,13 +5,14 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ScrollTop from "./ScrollTop";
 
+// Meta data for bots
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
     title: "Ronny Coste - Developer, Photographer, Filmmaker, Creator",
     description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
-    image: "/avatar.png",
+    image: "/rccolor.JPG",
     type: "website",
     ...customMeta,
   };

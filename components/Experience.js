@@ -1,6 +1,8 @@
 import userData from "@constants/data";
 import React from "react";
 
+// All the data display on this component is store in the data.json file
+// that way this component is more minimal and not as long as it would have been.
 export default function Experience() {
   return (
     <section className="bg-white dark:bg-gray-800">
