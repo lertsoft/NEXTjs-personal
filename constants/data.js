@@ -1,3 +1,5 @@
+// Constant data.
+// This method allows for an easier and more streamline data management for the site.
 const userData = {
   githubUsername: "lertsoft",
   name: "Ronny Coste",

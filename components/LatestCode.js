@@ -4,13 +4,14 @@ import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 
 export default function LatestCode({ repositories }) {
-  const [repos, setRepos] = useState([]);
+  const [repos, setRepos] = useState([]); // Get the data from the github fetch
 
   useEffect(async () => {
     // let latestRepos = await getLatestRepos(userData);
     // console.log("latestRepos", latestRepos);
     setRepos(repositories);
   }, []);
+  // Show the data from the github fetch
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
       <div className="max-w-6xl mx-auto">
@@ -54,6 +55,7 @@ export default function LatestCode({ repositories }) {
   );
 }
 
+// Final Render
 const GithubRepoCard = ({ latestRepo }) => {
   return (
     <div className="github-repo">
