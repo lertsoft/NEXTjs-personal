@@ -1,6 +1,8 @@
 import React from "react";
 import userData from "@constants/data";
 
+// About me component
+// Tech Stacks, social link texts, and resume.
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
@@ -52,32 +54,21 @@ export default function AboutMe() {
                 I'm looking for a job currently, If you see me as a good fit,
                 check my{" "}
                 <a
-                  href={userData.resumeUrl}
+                  href={userData.resumeUrl} 
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
+                  {/* Resume is a hyperlink to resume */}
                   Resume
                 </a>{" "}
                 and I'd love to work for you.
               </p>
             </div>
-            {/* Social Links */}
+            {/* Social Links text */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              {/* <div className="flex flex-row justify-start items-center ">
-                <a
-                  href={userData.socialLinks.facebook}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Facebook
-                  </p>
-                </a>
-              </div> */}
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
@@ -142,6 +133,7 @@ export default function AboutMe() {
             <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>
+            {/* Images */}
             <div className="flex flex-row flex-wrap mt-8">
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"

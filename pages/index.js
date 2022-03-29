@@ -20,7 +20,7 @@ export default function Home({ repositories }) {
   );
 }
 
-
+// Fetching of the github repo to the client render
 export const getServerSideProps = async () => {
   console.log(process.env.GITHUB_AUTH_TOKEN);
   let token = process.env.GITHUB_AUTH_TOKEN;
