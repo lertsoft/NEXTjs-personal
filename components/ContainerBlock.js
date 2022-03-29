@@ -3,6 +3,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import ScrollTop from "./ScrollTop";
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
@@ -44,6 +45,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       </Head>
       <main className="dark:bg-gray-800 w-full">
         <Navbar />
+        <ScrollTop />
         <div>{children}</div>
         <Footer />
       </main>
