@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import 'fonts.css';
+@import 'scrollTop.css';
 
 html,
 body {
