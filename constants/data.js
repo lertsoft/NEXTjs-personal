@@ -15,37 +15,12 @@ const userData = {
     {
       title: "Lifecycle",
       link: "https://lifecycle380.herokuapp.com",
-      imgUrl: "/lifecycle.png",
+      imgUrl: "/lifecycle.jpg",
     },
     {
       title: "Hackathon - reVive",
-      link: "https://manuarora.in",
-      imgUrl: "/revive.png",
-    },
-    {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
-    },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
+      link: "https://devpost.com/software/cuny-hackathon-2019#updates",
+      imgUrl: "/revive.jpg",
     },
   ],
   about: {
@@ -73,7 +48,7 @@ const userData = {
       company: "John Jay College, NYC, NY",
       year: "2019 - 2021",
       companyLink: "https://www.jjay.cuny.edu",
-      desc: "Learned to .",
+      desc: "Learned to manage teams in a software development team, How to implement different data structures, and Algorithms in an application.",
     },
     {
       title: "Staff",

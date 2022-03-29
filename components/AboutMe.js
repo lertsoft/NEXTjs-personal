@@ -177,21 +177,6 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://docs.soliditylang.org/en/latest/_static/logo.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-
-              <img
-                src="https://raw.githubusercontent.com/ethers-io/ethers.js/master/docs/favicon.ico"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              
-              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
               />
@@ -201,6 +186,36 @@ export default function AboutMe() {
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://raw.githubusercontent.com/lkundrak/font-linux/master/vectors/ubuntu-inverse.svg"
+                className="h-20 w-20 mx-4 my-4"
+              />
+               <img
+                src="https://raw.githubusercontent.com/wireshark/wireshark/master/resources/icons/wireshark.ico"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              
+              <img
+                src="https://a0.awsstatic.com/libra-css/images/logos/aws_smile-header-desktop-en-white_59x35@2x.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              
+              <img
+                src="https://avatars2.githubusercontent.com/u/2810941?v=3&s=96"
+                className="h-20 w-20 mx-4 my-4"
+              />
+               <img
+                src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo-shadow.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+               <img
+                src="https://raw.githubusercontent.com/ConsenSysMesh/solidity-logo/master/solidity-logo.svg"
+                className="h-20 w-20 mx-4 my-4"
+              />
+               <img
+                src="https://raw.githubusercontent.com/adobe/business-website/main/styles/favicon.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
                 
