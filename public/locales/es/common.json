@@ -1,0 +1,20 @@
+{
+    "projects": "proyectos",
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "contact": "Contactame",
+    "hero-dev": "Desarrollador.",
+    "hero-des": "Diseñador.",
+    "hero-pho": "Fotografo.",
+    "hero-fil": "FilmMaker.",
+    "latest-code": "Ultimo Code",
+    "latest-git": "Ver en GitHub",
+    "latest-rep": "Ver Repositorio",
+    "fav-projects": "Proyectos Favoritos",
+    "view-all": "Ver Todos",
+    "salute": "Di Hola!",
+    "contact-des": "Llena los detalles y me pondre en contacto lo mas pronto posible.",
+    "contact-name": "Tu Nombre",
+    "contact-mess": "Mensaje",
+    "contact-send": "Enviar Mensaje"
+}

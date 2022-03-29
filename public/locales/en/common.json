@@ -1,0 +1,20 @@
+{
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "hero-dev": "Developer.",
+    "hero-des": "Designer.",
+    "hero-pho": "Photographer.",
+    "hero-fil": "FilmMaker.",
+    "latest-code": "Latest Code",
+    "latest-git": "View GitHub",
+    "latest-rep": "View Repository",
+    "fav-projects": "Favorite Projects",
+    "view-all": "View all",
+    "salute": "Say hi!",
+    "contact-des": "Fill in the details and I'll get back to you as soon as I can.",
+    "contact-name": "Your Name",
+    "contact-mess": "Message",
+    "contact-send": "Send Message"
+}
