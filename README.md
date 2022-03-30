@@ -24,23 +24,23 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ## Landing
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/home.png)
+![Hompage](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/home.png)
 
 ## About
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/about.png)
+![Hompage](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/about.png)
 
 ## Projects
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/projects.png)
+![Hompage](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/projects.png)
 
 ## Experience
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/experience.png)
+![Hompage](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/experience.png)
 
 ## Contact
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
+![Hompage](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/contact.png)
 
 # Tech Stack
 
