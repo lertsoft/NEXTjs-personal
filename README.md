@@ -2,10 +2,7 @@
 
 **UPDATE:**
 
-
-1. Wrote a detailed blog on [freeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-nextjs-tailwindcss/), describing and explaining how I built this application from the ground up.
-
-2. Included the `constants` folder, where you can directly add your details and it'll get reflected throughout the application. No more customizations for the template required, just add your data and it'll reflect immediately.
+ Included the `constants` folder, where you can directly add your details and it'll get reflected throughout the application. No more customizations for the template required, just add your data and it'll reflect immediately.
 
 Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Kevin Clark](https://kevinclark.ca). The website is completely Open Source, you can use it for whatever purpose you want.
 
@@ -18,6 +15,8 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 - Clear React components and tailwind styling.
 - Exact sections that a developer needs to showcase their skills.
 - Clear call to actions.
+- Scroll to top button.
+- Translation button.
 
 # Pages
 
