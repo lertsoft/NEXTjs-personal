@@ -22,6 +22,9 @@ export default function Navbar() {
     router.push(router.asPath, undefined, { locale: e.target.value, });
   }
 
+  let en_lang, es_lang;
+  [en_lang, es_lang] = ["en", "es"];
+
   return (
     <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
@@ -194,10 +197,11 @@ export default function Navbar() {
             </svg>
           </a>
           {/* Language button */}
-          <a
+          {/* <a
           href='/'
           locale={router.locale === 'en' ? 'es' : 'en'}>
             <button
+            onClick={changeLanguage}
             aria-label="Toggle Dark Mode"
             type="button"
             className="w-10 h-10 p-3 rounded focus:outline-none"
@@ -210,7 +214,29 @@ export default function Navbar() {
           
           </button>
 
-          </a>
+          </a> */}
+
+<ul
+                        className="flex list-none mb-4 flex-row min-w-fit rounded-full box-border border-2 border-white bg-gray-200"
+                        role="tablist"
+                    >
+                    {[en_lang, es_lang].map((lang) => {
+                            return (
+                            <li
+                                key={lang}
+                                className="box-border mr-2 last:mr-0 flex-auto text-center rounded-full border-2 border-gray-200"
+                            >
+                              <button className={
+                                      "text-sm font-bold px-5 py-3 rounded-full " +
+                                      "block leading-normal uppercase " +
+                                      (router.locale === lang
+                                          ? "text-blue-600 bg-white"
+                                          : "text-black bg-gray-200")
+                                  } onClick={changeLanguage} value={lang}>{lang}</button>
+                            </li>
+                        )})}
+                    </ul>
+
           
 
           {/* Dark made button */}
