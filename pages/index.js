@@ -6,22 +6,21 @@ import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="Ronny Coste - Developer, Photographer, Filmmaker, Creator"
-      description="This is a website build to learn more of the tailwind css and next.js"
-    >
+      title="Developer, Photographer, Filmmaker, Creator"
+      description="This is a website build to learn more of the tailwind css and next.js" >
       <Hero />
       <FavoriteProjects />
       <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
 }
-
-// Fetching of the github repo to the client render
-export const getServerSideProps = async () => {
+// Fetching data from github and also from the local translations.
+export const getServerSideProps = async ({ locale }) => {
   console.log(process.env.GITHUB_AUTH_TOKEN);
   let token = process.env.GITHUB_AUTH_TOKEN;
 
@@ -31,6 +30,7 @@ export const getServerSideProps = async () => {
   return {
     props: {
       repositories,
+       ...await serverSideTranslations(locale, ['common', 'footer']),
     },
   };
 };
