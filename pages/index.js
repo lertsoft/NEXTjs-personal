@@ -6,7 +6,7 @@ import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export default function Home({ repositories }) {
   return (

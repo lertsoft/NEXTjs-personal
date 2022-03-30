@@ -216,7 +216,7 @@ export default function Navbar() {
 
           </a> */}
 
-<ul
+                   <ul
                         className="flex list-none mb-4 flex-row min-w-fit rounded-full box-border border-2 border-white bg-gray-200"
                         role="tablist"
                     >

@@ -1,7 +1,9 @@
 import React from "react";
 import userData from "@constants/data";
+import { useTranslation } from 'next-i18next'
 
 export default function AboutMe() {
+  const { t } = useTranslation('common');
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">

@@ -1,6 +1,7 @@
 import React from "react";
 import ContainerBlock from "../components/ContainerBlock";
 import Experience from "../components/Experience";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export default function experience() {
   return (
@@ -9,3 +10,9 @@ export default function experience() {
     </ContainerBlock>
   );
 }
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['common', 'footer']),
+  },
+})
