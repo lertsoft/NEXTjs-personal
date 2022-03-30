@@ -1,6 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from 'next-i18next';
 
 export default function AboutMe() {
   const { t } = useTranslation('common');
@@ -8,7 +8,7 @@ export default function AboutMe() {
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          About Me
+        {t('about')}
         </h1>
       </div>
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
@@ -17,7 +17,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
+            I am a software engineer that loves to build web apps, and learning about designing interfaces. Currently working on {" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
@@ -33,7 +33,7 @@ export default function AboutMe() {
           <div className="inline-flex flex-col">
             <div>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Contact
+                {t('contact')}
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, shoot me an {" "}
@@ -43,7 +43,7 @@ export default function AboutMe() {
                 >
                   email
                 </a>{" "}
-                and I'll get back. I swear.
+                and I'll get back. I promise.
               </p>
             </div>
             <div className="mt-8">

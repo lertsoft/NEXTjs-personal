@@ -217,7 +217,7 @@ export default function Navbar() {
           </a> */}
 
                    <ul
-                        className="flex list-none mb-4 flex-row min-w-fit rounded-full box-border border-2 border-white bg-gray-200"
+                        className="flex list-none mb-2 mt-2 flex-row min-w-fit rounded-full box-border border-2 border-white bg-gray-200"
                         role="tablist"
                     >
                     {[en_lang, es_lang].map((lang) => {
