@@ -4,7 +4,6 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import userData from "@constants/data";
 import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 
 export default function Navbar() {

@@ -8,29 +8,18 @@ import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-export const getStaticProps = async ({ locale }) => ({
-  props: {
-    ...await serverSideTranslations(locale, ['common', 'footer']),
-  },
-})
-
-
-
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="Ronny Coste - Developer, Photographer, Filmmaker, Creator"
-      description="This is a website build to learn more of the tailwind css and next.js"
-    >
+      title="Developer, Photographer, Filmmaker, Creator"
+      description="This is a website build to learn more of the tailwind css and next.js" >
       <Hero />
       <FavouriteProjects />
       <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
 }
-
-
-export const getServerSideProps = async () => {
+export const getServerSideProps = async ({ locale }) => {
   console.log(process.env.GITHUB_AUTH_TOKEN);
   let token = process.env.GITHUB_AUTH_TOKEN;
 
@@ -40,6 +29,7 @@ export const getServerSideProps = async () => {
   return {
     props: {
       repositories,
+       ...await serverSideTranslations(locale, ['common', 'footer']),
     },
   };
 };
