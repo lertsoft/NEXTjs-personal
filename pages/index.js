@@ -20,7 +20,7 @@ export default function Home({ repositories }) {
   );
 }
 // Fetching data from github and also from the local translations.
-export const getServerSideProps = async ({ locale }) => {
+export const getStaticProps = async ({ locale }) => {
   console.log(process.env.GITHUB_AUTH_TOKEN);
   let token = process.env.GITHUB_AUTH_TOKEN;
 
