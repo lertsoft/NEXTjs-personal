@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Ronny Coste - Developer, Photographer, Filmmaker, Creator",
+    title: "Ronny Coste - Developer. Photographer. FilmMaker. Creator.",
     description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
     image: "/rccolor.JPG",
     type: "website",

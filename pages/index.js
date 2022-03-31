@@ -11,7 +11,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="Developer, Photographer, Filmmaker, Creator"
+      title="Developer. Photographer. FilmMaker. Creator."
       description="This is a website build to learn more of the tailwind css and next.js" >
       <Hero />
       <FavoriteProjects />
