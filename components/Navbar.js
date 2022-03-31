@@ -225,7 +225,7 @@ export default function Navbar() {
                                 className="box-border mr-2 last:mr-0 flex-auto text-center rounded-full border-2 border-gray-200"
                             >
                               <button className={
-                                      "text-sm font-bold px-5 py-3 rounded-full " +
+                                      "text-sm font-bold px-5 py-2 rounded-full " +
                                       "block leading-normal uppercase " +
                                       (router.locale === lang
                                           ? "text-blue-600 bg-white"
