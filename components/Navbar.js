@@ -215,14 +215,14 @@ export default function Navbar() {
                 {/* Change language switcher */}
 
                    <ul
-                        className="flex list-none mb-2 mt-2 flex-row min-w-fit rounded-full box-border border-2 border-white bg-gray-200"
+                        className="flex list-none mb-2 mt-2 flex-row min-w-fit rounded-full sm:box-border md:box-content box-border border-2 border-white bg-gray-200"
                         role="tablist"
                     >
                     {[en_lang, es_lang].map((lang) => {
                             return (
                             <li
                                 key={lang}
-                                className="sm:box-border box-border md:box-content mr-2 last:mr-0 flex-auto text-center rounded-full border-2 border-gray-200"
+                                className="sm:box-border md:box-content box-border mr-2 last:mr-0 flex-auto text-center rounded-full border-2 border-gray-200"
                             >
                               <button className={
                                       "text-sm font-bold px-5 py-3 rounded-full " +
