@@ -1,6 +1,7 @@
 import React from "react";
 import userData from "@constants/data";
 import { useTranslation } from 'next-i18next';
+import Image from 'next/image';
 
 // About me component
 // Tech Stacks, social link texts, and resume.
@@ -137,78 +138,78 @@ export default function AboutMe() {
             </h1>
             {/* Images */}
             <div className="flex flex-row flex-wrap mt-8">
-              <img
+              <image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4" alt="Javascript logo"
               />
-              <img
+              <image
                 src="https://raw.githubusercontent.com/nodejs/nodejs.org/main/static/legacy/images/logo-header.png"
                 className="h-20 w-20 mx-4 my-4" alt="Node JS logo"
               />
-              <img
+              <image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4" alt="Typescript logo"
               />
-              <img
+              <image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                 className="h-20 w-20 mx-4 my-4" alt="React JS logo"
               />
-              <img
+              <image
                 src="https://camo.githubusercontent.com/92ec9eb7eeab7db4f5919e3205918918c42e6772562afb4112a2909c1aaaa875/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313630373535343338352f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6c6f676f2e706e67"
                 className="h-20 w-20 mx-4 my-4" alt="NEXT JS logo"
               />
               
-              <img
+              <image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="h-20 w-20 mx-4 my-4" alt="HTML logo"
               />
-              <img
+              <image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                 className="h-20 w-20 mx-4 my-4" alt="CSS logo"
               />
-              <img
+              <image
                 src="https://raw.githubusercontent.com/python/pythondotorg/main/static/img/python-logo.png"
                 className="h-20 w-20 mx-4 my-4" alt="Python logo"
               />
-              <img
+              <image
                 src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/master/.github/logo-light.svg"
                 className="h-20 w-20 mx-4 my-4" alt="TailwindCSS logo"
               />
-               <img
+               <image
                 src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo-shadow.png"
                 className="h-20 w-20 mx-4 my-4" alt="Bootstrap logo"
               />
-               <img
+               <image
                 src="https://raw.githubusercontent.com/ConsenSysMesh/solidity-logo/master/solidity-logo.svg"
                 className="h-20 w-20 mx-4 my-4" alt="Solidity logo"
               />
-               <img
+               <image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4" alt="Firebase logo"
               />
-              <img
+              <image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
                 className="h-20 w-20 mx-4 my-4" alt="MySQL logo"
               />
-              <img
+              <image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4" alt="MongoDB logo"
               />
-                <img
+                <image
                 src="https://raw.githubusercontent.com/wireshark/wireshark/master/resources/icons/wireshark.ico"
                 className="h-20 w-20 mx-4 my-4" alt="Wireshark logo"
               />
               
-              <img
+              <image
                 src="https://a0.awsstatic.com/libra-css/images/logos/aws_smile-header-desktop-en-white_59x35@2x.png"
                 className="h-20 w-20 mx-4 my-4" alt="AWS logo"
               />
               
-              <img
+              <image
                 src="https://avatars2.githubusercontent.com/u/2810941?v=3&s=96"
                 className="h-20 w-20 mx-4 my-4" alt="Google Cloud logo"
               />
-               <img
+               <image
                 src="https://raw.githubusercontent.com/adobe/business-website/main/styles/favicon.svg"
                 className="h-20 w-20 mx-4 my-4" alt="Adobe logo"
               />
