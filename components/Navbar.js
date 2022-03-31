@@ -16,7 +16,7 @@ export default function Navbar() {
     setMounted(true);
   }, []);
 
-  const { t } = useTranslation('common')
+  const { t } = useTranslation('common');
   
   function changeLanguage(e) {
     router.push(router.asPath, undefined, { locale: e.target.value, });

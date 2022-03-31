@@ -1,6 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from 'next-i18next';
 
 // contact info component
 export default function Contact() {

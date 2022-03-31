@@ -2,7 +2,7 @@ import React from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from 'next-i18next';
 
 // Text that has the Rainbow Highlight!
 export default function Hero() {
