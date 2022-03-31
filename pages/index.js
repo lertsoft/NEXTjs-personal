@@ -20,6 +20,9 @@ export default function Home({ repositories }) {
   );
 }
 // Fetching data from github and also from the local translations.
+// Use getStaticProps function to get the site to work on a deployment site or server.
+// serverSideRender function produces a 500 error on the deployed site which is pretty hard to debug amd time consuming...
+// Learned this today the hard way lol but We learn and we improve everyday
 export const getStaticProps = async ({ locale }) => {
   console.log(process.env.GITHUB_AUTH_TOKEN);
   let token = process.env.GITHUB_AUTH_TOKEN;
