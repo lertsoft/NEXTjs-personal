@@ -12,8 +12,9 @@ export default function LatestCode({ repositories }) {
     // let latestRepos = await getLatestRepos(userData);
     // console.log("latestRepos", latestRepos);
     setRepos(repositories);
-  }, []);
+  }, [repositories]);
   // Show the data from the github fetch
+
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
       <div className="max-w-6xl mx-auto">
