@@ -4,13 +4,12 @@ import { ThemeProvider } from "next-themes";
 import { appWithTranslation } from 'next-i18next';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
+// import * as ga from '../lib/ga';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
   useEffect(() => {
-    const handleRouteChange = (url) => {
-      ga.pageview(url)
-    }
+    const handleRouteChange = (url) =>
 
     router.events.on('routeChangeComplete', handleRouteChange)
 

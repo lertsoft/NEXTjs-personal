@@ -10,7 +10,12 @@ const userData = {
   address: "New york, NY",
   projects: [
     {
-      title: "Personal site",
+      title: "Personal Site",
+      link: "https://coste.vercel.app",
+      imgUrl: "/nextPersonal.png",
+    },
+    {
+      title: "Portfolio Site",
       link: "https://ronnycoste.com",
       imgUrl: "/Portfolio.jpg",
     },
@@ -20,7 +25,7 @@ const userData = {
       imgUrl: "/lifecycle.jpg",
     },
     {
-      title: "Hackathon - reVive",
+      title: "Hackathon, Environment Track Winner - reVive",
       link: "https://devpost.com/software/cuny-hackathon-2019#updates",
       imgUrl: "/revive.jpg",
     },
