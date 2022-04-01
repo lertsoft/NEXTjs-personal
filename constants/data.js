@@ -5,7 +5,7 @@ const userData = {
   name: "Ronny Coste",
   designation: "Full-Stack Developer",
   avatarUrl: "/rccolor.JPG",
-  email: "hello@ronnycoste.com",
+  email: "contact@ronnycoste.com",
   phone: "+1 201-473-2041",
   address: "New york, NY",
   projects: [
