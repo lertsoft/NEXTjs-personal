@@ -11,12 +11,12 @@ const userData = {
   projects: [
     {
       title: "Personal Site",
-      link: "https://coste.vercel.app",
+      link: "https://ronnycoste.com",
       imgUrl: "/nextPersonal.png",
     },
     {
       title: "Portfolio Site",
-      link: "https://ronnycoste.com",
+      link: "https://en.ronnycoste.com",
       imgUrl: "/Portfolio.jpg",
     },
     {
