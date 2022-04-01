@@ -200,11 +200,6 @@ export default function AboutMe() {
               />
               
               <img
-                src="https://a0.awsstatic.com/libra-css/imgs/logos/aws_smile-header-desktop-en-white_59x35@2x.png"
-                className="h-20 w-20 mx-4 my-4" alt="AWS logo"
-              />
-              
-              <img
                 src="https://avatars2.githubusercontent.com/u/2810941?v=3&s=96"
                 className="h-20 w-20 mx-4 my-4" alt="Google Cloud logo"
               />
