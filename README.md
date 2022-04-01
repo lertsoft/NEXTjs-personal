@@ -6,7 +6,7 @@
 
 Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Kevin Clark](https://kevinclark.ca). The website is completely Open Source, you can use it for whatever purpose you want.
 
-![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/websitegif.gif)
+![HomeGif](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/websitegif.gif)
 
 # Features
 
@@ -25,6 +25,10 @@ I've kept the pages as simple as possible. Only the required sections are includ
 ## Landing
 
 ![Hompage](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/home.png)
+
+## Landing in spanish
+
+![Hompage](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/home_es.png)
 
 ## About
 
@@ -47,6 +51,7 @@ I've kept the pages as simple as possible. Only the required sections are includ
 The website is built in my favourite Tech Stack and deployed on [Vercel](https://vercel.com)
 
 - [Next.js](https://nextjs.org) for building React Components.
+- [Next-I18next](https://github.com/isaachinman/next-i18next) for internationalyzing / Translating the website.
 - [tailwindcss](https://tailwindcss.com) for styling.
 - [React Rough Notation](https://roughnotation.com) for Hero section highlighting.
 - [Vercel](https://vercel.com) for deployments and CI/CD.
@@ -69,7 +74,3 @@ Deployment can be done in 3 easy steps.
 # License
 
 This template is completely open source and free to use. Use it for client projects or your own portfolio project. Give me credits at the footer (If you wish, it'll help me a lot :)).
-
-# Support
-
-<a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
