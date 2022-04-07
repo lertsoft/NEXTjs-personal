@@ -122,15 +122,12 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/contact">
+          {/* <Link href="/contact"> */}
             <a
-              className={`text-base  ${
-                router.asPath === "/contact"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+              href={userData.socialLinks.gallery}
+              className="text-base text-gray-600 dark:text-gray-300 font-normal"
             >
-              {t('contact')} 
+              {t('gallery')} 
               {router.asPath === "/contact" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -147,7 +144,7 @@ export default function Navbar() {
                 </svg>
               )}
             </a>
-          </Link>
+          {/* </Link> */}
         </div>
                 {/* Social Media Icon links - Beggining */}
         <div className="space-x-4 flex flex-row items-center">

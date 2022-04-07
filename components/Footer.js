@@ -1,9 +1,12 @@
 import React from "react";
 import userData from "@constants/data";
 import { useTranslation } from 'next-i18next';
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 // Footer Component
 export default function Footer() {
+  const router = useRouter();
 
   const { t } = useTranslation('footer');
 
@@ -13,24 +16,43 @@ export default function Footer() {
         <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center mt-8">
           <div>
-            <p>&copy; Ronny Coste. {t('description')}</p>
+            <p>&copy; Ronny Coste {new Date().getFullYear()}.  {t('description')}</p>
           </div>
           <div>
-            {/* Support me by keeping this in the footer, please. :)
-            <p>
-              Developed by
+          
+            {/* <p>
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a
                   className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
-                  href="https://manuarora.in"
+                  href="gallery.ronnycoste.com"
                 >
-                  Manu Arora
+                  Gallery
                 </a>
               </div>
             </p> */}
           </div>
           {/* Social Media Icon Links on the footer - Beggining. */}
           <div className="space-x-4 flex flex-row items-center">
+          <Link href="/contact">
+          <a
+              className={`text-base font-normal text-gray-600 dark:text-gray-300  ${
+                router.asPath === "/contact"
+              }`}
+            >
+            
+                 <svg 
+                 xmlns="http://www.w3.org/2000/svg" 
+                 width="24" 
+                 height="24" 
+                 fill="currentColor"
+                 className="bi bi-instagram h-5 w-5"
+                 viewBox="0 0 24 24">
+                   <path 
+                   d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+                   </svg>
+                   </a>
+          </Link>
+             
             <a
               href={userData.socialLinks.instagram}
               className="text-base font-normal text-gray-600 dark:text-gray-300"

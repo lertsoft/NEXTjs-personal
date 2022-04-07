@@ -15,6 +15,11 @@ const userData = {
       imgUrl: "/nextPersonal.png",
     },
     {
+      title: "Gallery du Coste",
+      link: "https://gallery.ronnycoste.com",
+      imgUrl: "/gallery.png",
+    },
+    {
       title: "Portfolio Site",
       link: "https://en.ronnycoste.com",
       imgUrl: "/Portfolio.jpg",
@@ -101,7 +106,8 @@ const userData = {
     twitter: "https://twitter.com/costeronny",
     linkedin: "https://linkedin.com/in/ronnycoste",
     github: "https://github.com/lertsoft",
-    facebook: "https://facebook.com/",
+    contact: "https://ronnycoste.com/contact",
+    gallery: "https://gallery.ronnycoste.com/"
   },
 };
 
