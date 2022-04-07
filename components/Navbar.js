@@ -234,7 +234,7 @@ export default function Navbar() {
 
           
 
-          {/* Dark made button */}
+          {/* Dark mode button */}
           <button
             aria-label="Toggle Dark Mode"
             type="button"
@@ -288,11 +288,12 @@ export default function Navbar() {
           {t('experience')} 
           </a>
         </Link>
-        <Link href="/contact">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-          {t('contact')} 
+        {/* <Link href="/contact"> */}
+          <a href={userData.socialLinks.gallery}
+          className="text-base font-normal text-gray-600 dark:text-gray-300">
+          {t('gallery')} 
           </a>
-        </Link>
+        {/* </Link> */}
         {/* <Link
             href='/'
             locale={router.locale === 'en' ? 'es' : 'en'}
