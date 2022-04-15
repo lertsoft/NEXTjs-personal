@@ -1,6 +1,7 @@
 import React from "react";
 import userData from "@constants/data";
 import { useTranslation } from 'next-i18next';
+import Link from "next/link";
 
 // About me component
 // Tech Stacks, social link texts, and resume.
@@ -34,9 +35,13 @@ export default function AboutMe() {
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
             <div>
+              < Link href="/contact">
+                <a>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 {t('contact')}
               </h1>
+              </a>
+              </Link>{" "}
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, shoot me an {" "}
                 <a
