@@ -20,7 +20,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            I am a software engineer that loves to build web apps, and learning about designing interfaces. Currently working on {" "}
+            {t('about-title')} {t('about-work')} {" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
@@ -43,23 +43,23 @@ export default function AboutMe() {
               </a>
               </Link>{" "}
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot me an {" "}
+              {t('about-side.des')} {" "}
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   email
                 </a>{" "}
-                and I will get back. I promise.
+                {t('about-side.fin')}
               </p>
             </div>
             <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Job Opportunities
+              {t('about-job')}
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I am looking for a job currently, If you see me as a good fit,
-                check my{" "}
+              {t('about-side.opo')}
+              {t('about-side.check')}{" "}
                 <a
                   href={userData.resumeUrl} 
                   target="__blank"
@@ -68,7 +68,7 @@ export default function AboutMe() {
                   {/* Resume is a hyperlink to resume */}
                   Resume
                 </a>{" "}
-                and I would love to work for you.
+                {t('about-side.work')}
               </p>
             </div>
             {/* Social Links text */}
@@ -128,14 +128,22 @@ export default function AboutMe() {
           </div>
           {/* Text area */}
           <div className="col-span-1 md:col-span-2">
-            {userData.about.description?.map((desc, idx) => (
-              <p
-                key={idx}
-                className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
               >
-                {desc}
+                {t('about-description.1')}
               </p>
-            ))}
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.2')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.3')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.4')}
+              </p>
 
             <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
