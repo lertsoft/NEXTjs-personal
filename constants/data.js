@@ -59,7 +59,7 @@ const userData = {
   },
   experience: [
     {
-      title: "Director of Photography ",
+      title: "Director of Photography & Camera Assistant ",
       company: "Belle Image Productions",
       year: "2021 - Present",
       companyLink: "https://belleimageproduction.com",
