@@ -10,6 +10,11 @@ const userData = {
   address: "New york, NY",
   projects: [
     {
+      title: "Template ready with my favorite tooling",
+      link: "https://github.com/lertsoft/typescript_nextjs_template",
+      imgUrl: "/Template.png",
+    },
+    {
       title: "Personal Site",
       link: "https://ronnycoste.com",
       imgUrl: "/nextPersonal.png",
@@ -18,6 +23,11 @@ const userData = {
       title: "Gallery du Coste",
       link: "https://gallery.ronnycoste.com",
       imgUrl: "/gallery.png",
+    },
+    {
+      title: "Blog built with NextJS and Notion",
+      link: "https://blog.ronnycoste.com",
+      imgUrl: "/blog.png",
     },
     {
       title: "Portfolio Site",
@@ -48,6 +58,13 @@ const userData = {
     currentProjectUrl: "https://lifecycle380.herokuapp.com",
   },
   experience: [
+    {
+      title: "Director of Photography ",
+      company: "Belle Image Productions",
+      year: "2021 - Present",
+      companyLink: "https://belleimageproduction.com",
+      desc: " Collaborated with the Director & Producer to create films that encapsulate the clients’ goals. Executed the Director’s vision and feel of the film without concise information from the director.  ",
+    },
     {
       title: "Software Developer Fellow",
       company: "CUNY TECH PREP",
@@ -89,7 +106,14 @@ const userData = {
       company: "TechoDR",
       year: "2016 - 2017",
       companyLink: "https://rd.techo.org",
-      desc: "Planned, developed, and coordinated logistic activities with corporate teams using Google Workspace software such as  Calendar, Docs, Sheets, and Drive to seamlessly collaborate with other volunteers and staff members",
+      desc: "Planned, developed, and coordinated logistic activities with corporate teams using Google Workspace software such as  Calendar, Docs, Sheets, and Drive to seamlessly collaborate with other volunteers and staff members. Also analyse data and built visualization model for the director of the team and other stakeholders at the NGO.",
+    },
+    {
+      title: "IT Intern ",
+      company: "Bonanza Dominicana",
+      year: "2015 - 2015",
+      companyLink: "hhttps://www.bonanza.com.do",
+      desc: "Troubleshooted hardware, software, and networks so that the company infrastructure stayed on 24/7. Provided first-tier support to a network of over 40 End Users. Added over 10 support articles to the IT Support Database. Facilitated on-site and remote support to end users, and perform post-resolution follow-ups to ensure the service was effective. Visited branch offices for hands-on support on the companies equipment.",
     },
     {
       title: "High School",

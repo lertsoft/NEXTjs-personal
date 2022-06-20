@@ -3,6 +3,7 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
 import { useTranslation } from 'next-i18next';
+import Link from "next/link";
 
 // Text that has the Rainbow Highlight!
 export default function Hero() {
@@ -16,22 +17,30 @@ export default function Hero() {
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              <Link href="/projects" >
             {t('hero-dev')}
+            </Link>
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-            {t('hero-des')}
+               <a href="" > 
+               {t('hero-des')}
+               </a>            
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              <a href="https://gallery.ronnycoste.com"  target="_blank" rel="noreferrer" >
             {t('hero-pho')}
+            </a>
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              <a href="https://gallery.ronnycoste.com/cinematography/" target="_blank" rel="noreferrer" >
             {t('hero-fil')}
+            </a>
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
