@@ -35,7 +35,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
-        <meta name="twitter:card" content="Software Eng personal site" />
+        <meta name="twitter:card" content="Ronny Coste - Software Engineer and Creator" />
         <meta name="twitter:site" content="@costeronny" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />

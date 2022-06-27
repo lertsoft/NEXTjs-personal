@@ -3,7 +3,7 @@
 const userData = {
   githubUsername: "lertsoft",
   name: "Ronny Coste",
-  designation: "Full-Stack Developer",
+  designation: "Software Engineer",
   avatarUrl: "/rccolor.JPG",
   email: "contact@ronnycoste.com",
   phone: "+1 201-473-2041",
