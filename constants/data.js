@@ -30,8 +30,8 @@ const userData = {
       imgUrl: "/blog.png",
     },
     {
-      title: "Portfolio Site",
-      link: "https://en.ronnycoste.com",
+      title: "IPFS hosted Portfolio Site",
+      link: "https://ipfs.ronnycoste.com",
       imgUrl: "/Portfolio.jpg",
     },
     {

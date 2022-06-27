@@ -11,7 +11,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Ronny Coste - Developer. Photographer. FilmMaker. Creator.",
-    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
+    description: `I've been developing websites for more than 5 years straight. Get in touch with me to know more. This sitewas built with Next.js, React, and Tailwind-CSS.`,
     image: "/rccolor.JPG",
     type: "website",
     ...customMeta,

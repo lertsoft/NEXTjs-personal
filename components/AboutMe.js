@@ -2,11 +2,16 @@ import React from "react";
 import userData from "@constants/data";
 import { useTranslation } from 'next-i18next';
 import Link from "next/link";
+import { RainbowHighlight } from "./RainbowHighlight";
+
+import { RoughNotation } from "react-rough-notation";
 
 // About me component
 // Tech Stacks, social link texts, and resume.
 export default function AboutMe() {
   const { t } = useTranslation('common');
+  const animationDuration = Math.floor(30 * "Email".length);
+  
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -44,19 +49,25 @@ export default function AboutMe() {
               </Link>{" "}
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
               {t('about-side.des')} {" "}
+              <RainbowHighlight color="red">
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
+                  
                   email
-                </a>{" "}
+                  
+                </a>
+                {" "}</RainbowHighlight> 
                 {t('about-side.fin')}
               </p>
             </div>
             <div className="mt-8">
+            <RoughNotation type="circle" color="red">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
               {t('about-job')}
               </h1>
+              </RoughNotation>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
               {t('about-side.opo')}
               {t('about-side.check')}{" "}

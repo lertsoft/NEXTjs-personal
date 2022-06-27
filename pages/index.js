@@ -12,7 +12,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Developer. Photographer. FilmMaker. Creator."
-      description="This my personal portfolio website. Built with Next.js, React, and Tailwind-CSS." >
+      description="I've been developing websites for more than 5 years straight. Get in touch with me to know more. This sitewas built with Next.js, React, and Tailwind-CSS." >
       <Hero />
       <FavoriteProjects />
       <LatestCode repositories={repositories} />
