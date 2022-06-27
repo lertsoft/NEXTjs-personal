@@ -11,7 +11,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Ronny Coste - Developer. Photographer. FilmMaker. Creator.",
-    description: `I've been developing websites for more than 5 years straight. Get in touch with me to know more. This sitewas built with Next.js, React, and Tailwind-CSS.`,
+    description: `I am Ronny Coste. software Engineer and Photographer based in NYC. This site was built with Next.js, React, and Tailwind-CSS.`,
     image: "/rccolor.JPG",
     type: "website",
     ...customMeta,
@@ -21,7 +21,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
-        <meta content={meta.description} name="description" />
+        <meta name="description" content={meta.description}  />
         <meta
           property="og:url"
           content={`https://ronnycoste.com${router.asPath}`}
