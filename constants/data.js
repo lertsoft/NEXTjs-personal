@@ -128,19 +128,19 @@ const userData = {
       title: "Why did I choose NextJS to build my websites?",
       desc: "I started using Next in January and fell in love with it. Now all my sites are based on it.",
       link: "https://blog.ronnycoste.com/why-did-i-choose-nextjs-to-build-my-websites",
-      date:"06/17/2022",
+      date:"06.17.2022",
     },
     {
       title: "Values worksheet",
       desc: "My personal values on a blog post. This worksheet I finished back in 2020 that i felt i needed because i was drifting apart from what was truly important to me.",
       link: "https://blog.ronnycoste.com/values-worksheet",
-      date:"06/09/2022",
+      date:"06.09.2022",
     },
     {
       title: " 24 failures & Successes by the age of 24",
       desc: "My successes and failures.",
-      link: "https://blog.ronnycoste.com/24-failures-successes-by-the-age-of-24",
-      date:"05/30/2022",
+      link: "https://blog.ronnycoste.com/my_failures_and_successes",
+      date:"05.30.2022",
     },
   ],
   resumeUrl:

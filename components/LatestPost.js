@@ -3,8 +3,8 @@ import Link from "next/link";
 import userData from "@constants/data";
 import { useTranslation } from 'next-i18next';
 
-export default function LatestCode({ BlogPost }) {
-    const [posts, setPost] = useState([]);
+export default function LatestCode({ }) {
+    // const [posts, setPost] = useState([]);
     const { t } = useTranslation('common');
 
   return (
@@ -43,22 +43,16 @@ export default function LatestCode({ BlogPost }) {
 
         {/* Single Article card */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-10 gap-y-20">
-        {userData.BlogPost.map((BlogPost, idx) => ( 
+        {userData.BlogPost.map((BlogPost) => ( 
             <>
             <PostCard 
+            key={BlogPost.date}
             title={BlogPost.title}
-            year={BlogPost.date}
+            date={BlogPost.date}
             desc={BlogPost.desc}
-            latestPost={BlogPost.link} 
-            key={idx} />
-
-           {idx === userData.BlogPost.length - 1 ? null: (
-            <div >
-              
-            </div>
-           
-          )}
-           </>
+            link={BlogPost.link} 
+             />
+             </>
 
           ))}
           </div>
@@ -81,10 +75,11 @@ const PostCard  = ({title, desc, date, link}) => {
       <p className="text-base font-normal my-4 text-gray-500">
       {desc}
       </p>
-      <h3>{date}</h3>
+      <p className="text-base font-normal my-4 dark:text-gray-200 text-gray-700">{date}</p>
       <a
         href={link}
         className="font-semibold group flex flex-row space-x-2 w-full items-center"
+        onClick={console.log}
       >
         <p>
         {t('blog-read')}
