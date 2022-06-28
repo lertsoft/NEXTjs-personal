@@ -123,6 +123,26 @@ const userData = {
       desc: "Took a two year technical program that thought us programming basics on C#, Design with adobe photoshop, and Data analitics with Excel. was part of the first debate team, Soccer team, and participated in a film festival. ",
     },
   ],
+  BlogPost: [
+    {
+      title: "Why did I choose NextJS to build my websites?",
+      desc: "I started using Next in January and fell in love with it. Now all my sites are based on it.",
+      link: "https://blog.ronnycoste.com/why-did-i-choose-nextjs-to-build-my-websites",
+      date:"06/17/2022",
+    },
+    {
+      title: "Values worksheet",
+      desc: "My personal values on a blog post. This worksheet I finished back in 2020 that i felt i needed because i was drifting apart from what was truly important to me.",
+      link: "https://blog.ronnycoste.com/values-worksheet",
+      date:"06/09/2022",
+    },
+    {
+      title: " 24 failures & Successes by the age of 24",
+      desc: "My successes and failures.",
+      link: "https://blog.ronnycoste.com/24-failures-successes-by-the-age-of-24",
+      date:"05/30/2022",
+    },
+  ],
   resumeUrl:
     "https://docs.google.com/document/d/1hsroxazSC8G1tRMweraSicSZWmVLqG7tHHrRo5z6NG8/edit?usp=sharing",
   socialLinks: {
