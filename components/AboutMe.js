@@ -49,7 +49,7 @@ export default function AboutMe() {
               </Link>{" "}
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
               {t('about-side.des')} {" "}
-              <RoughNotation type="circle" color="red" show={true}>
+              <RoughNotation animationDelay={1000} type="circle" color="red" show={true}>
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
@@ -71,7 +71,7 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
               {t('about-side.opo')}
               {t('about-side.check')}{" "}
-              <RoughNotation animationDelay={1000} type="circle" color="red" show={true}>
+              <RoughNotation animationDelay={2000} type="circle" color="red" show={true}>
                 <a
                   href={userData.resumeUrl} 
                   target="__blank"
