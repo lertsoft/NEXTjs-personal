@@ -37,8 +37,16 @@
     "about-description.1": "I have been involved in technology since middle school when I started hacking and breaking down my PSP, and android device. Mostly worked on hardware which is why I started on the path of networking.",
     "about-description.2": "I started tinkering more with scripts and HTML, CSS when I was learning C# but everything that i learned I used it to modify scripts to automate almost all my repetitve task on my phone, and laptop..",
     "about-description.3": "Now those days are gone and I have come far to being quite comfortable with Javascript, and Python after dozens of reddit and stack overflow explainers...",
-    "about-description.4": "My focus right now is continue improving in all of these: JS, NEXT.js, REACT.js, NODE.js, EXPRESS.js, CHAKRA-UI, TAILWIND-CSS, ETHER.js, PYTHON, SOLIDITY, TYPESCRIPT, SQL, BASH, R, C++, AWS, GCLOUD, and a lot more.",
-    
+    "about-description.4": "Programming Languages: Javascript, Python, Solidity, Typescript, SQL, R, C++.",
+    "about-description.5": "Web front-end: Nextjs, React, Tailwind-CSS, Bootstrap, HTML, CSS, SASS, Syled-Components, CHAKRA-UI, Daisy-UI.",
+    "about-description.6": "Web back-end:  Nextjs, Nodejs, Expressjs, Etherjs, Django.",
+    "about-description.7": "Mobile: React-Native.",
+    "about-description.8": "Desktop: Electron.",
+    "about-description.9": "Databases: MYSQL, MongoDB, Google Firestore.",
+    "about-description.10": "Design tools: Photoshop, InDesign, Illustrator, Figma, Procreate.",    
+    "about-description.11": "Other tools: Unix Shells (Bash/zsh), Wireshark, SPSS, Git, Github, AWS, Google Cloud, Firebase, Vercel, Nmap, GNS3, Docker, Heroku, Notion, VMWare, Tableau.",
+    "about-description.0": "Human Langagues: English (Fluent), Spanish (Fluent/Native), French (intermediate).",
+
     "experience-ctp": "Learned in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployments such as MVC, version control with Git/GitHub, agile & Scrum with Trello and Slack, test-driven development, and CI/CD.",
     "experience-jjay": "Learned to manage teams in a software development team, How to implement different data structures, and Algorithms in an application.",
     "experience-nycudl": "Mentored a group of 20 middle schoolers from immigrant families on how to become a better Debaters and how they can improve their English and native language by debating with other students.",

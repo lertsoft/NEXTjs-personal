@@ -154,14 +154,47 @@ export default function AboutMe() {
               >
                 {t('about-description.3')}
               </p>
+              <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+              Tech Stack
+            </h1>
               <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
               >
                 {t('about-description.4')}
               </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.5')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.6')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.7')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.8')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.9')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.10')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.11')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
+                {t('about-description.0')}
+              </p>
 
-            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
-              Tech Stack
-            </h1>
+            
             {/* Images */}
             <div className="flex flex-row flex-wrap mt-8">
               <img
