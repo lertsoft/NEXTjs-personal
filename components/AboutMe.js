@@ -171,6 +171,10 @@ export default function AboutMe() {
               </p>
               <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
               >
+                {t('about-description.11')}
+              </p>
+              <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+              >
                 {t('about-description.7')}
               </p>
               <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
@@ -187,7 +191,7 @@ export default function AboutMe() {
               </p>
               <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
               >
-                {t('about-description.11')}
+                {t('about-description.12')}
               </p>
               <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
               >

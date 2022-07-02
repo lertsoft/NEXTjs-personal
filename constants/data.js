@@ -10,6 +10,16 @@ const userData = {
   address: "New york, NY",
   projects: [
     {
+      title: "CreatorsNYC Website - Not finished",
+      link: "https://creatorsnyc.vercel.app",
+      imgUrl: "/CreatorsNYC.png",
+    },
+    {
+      title: "Wealth at scale of Jeff Bezoz",
+      link: "https://pixelwealth.ronnycoste.com",
+      imgUrl: "/WealthAtScale.png",
+    },
+    {
       title: "Template ready with my favorite tooling",
       link: "https://github.com/lertsoft/typescript_nextjs_template",
       imgUrl: "/Template.png",
@@ -80,6 +90,13 @@ const userData = {
       desc: "Learned to manage teams in a software development team, How to implement different data structures, and Algorithms in an application.",
     },
     {
+      title: "Cuny Hackathon participant",
+      company: "Cuny Hackathon",
+      year: "2019",
+      companyLink: "https://devpost.com/software/cuny-hackathon-2019#updates",
+      desc: " * Won the sustainable award and Second best application out of 20 teams. *Created a user-friendly application in a team of 5 that uses the smartphone camera to snap a photograph and uses firebase cloud computers to analyze objects and demonstrate where you can recycle them. *Developed using react Native to code the mobile app and used the Earth911 and NYCopendata API to gather recycling information. Visualized the layout and color palette of the application using Adobe XD and Figma.",
+    },
+    {
       title: "Staff",
       company: "New York City Urban Debate League",
       year: "2017 - 2019",
@@ -124,6 +141,12 @@ const userData = {
     },
   ],
   BlogPost: [
+    {
+      title: "Decentralized Front-End with IPFS",
+      desc: "My experience hosting my personal website on IPFS.",
+      link: "https://blog.ronnycoste.com/decentralized-front-end-with-ipfs",
+      date:"07.01.2022",
+    },
     {
       title: "Why did I choose NextJS to build my websites?",
       desc: "I started using Next in January and fell in love with it. Now all my sites are based on it.",

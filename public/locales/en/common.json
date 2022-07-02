@@ -44,7 +44,8 @@
     "about-description.8": "Desktop: Electron.",
     "about-description.9": "Databases: MYSQL, MongoDB, Google Firestore.",
     "about-description.10": "Design tools: Photoshop, InDesign, Illustrator, Figma, Procreate.",    
-    "about-description.11": "Other tools: Unix Shells (Bash/zsh), Wireshark, SPSS, Git, Github, AWS, Google Cloud, Firebase, Vercel, Nmap, GNS3, Docker, Heroku, Notion, VMWare, Tableau.",
+    "about-description.11": "Testing: Jest, Cypress, Storybook.",
+    "about-description.12": "Other tools: Unix Shells (Bash/zsh), Wireshark, SPSS, Git, Github, AWS, Google Cloud, Firebase, Vercel, Nmap, GNS3, Docker, Heroku, Notion, VMWare, Tableau.",
     "about-description.0": "Human Langagues: English (Fluent), Spanish (Fluent/Native), French (intermediate).",
 
     "experience-ctp": "Learned in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployments such as MVC, version control with Git/GitHub, agile & Scrum with Trello and Slack, test-driven development, and CI/CD.",
