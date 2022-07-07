@@ -10,6 +10,11 @@ const userData = {
   address: "New york, NY",
   projects: [
     {
+      title: "Lifecycle",
+      link: "https://lifecycle.vercel.app",
+      imgUrl: "/lifecycle.png",
+    },
+    {
       title: "CreatorsNYC Website - Not finished",
       link: "https://creatorsnyc.vercel.app",
       imgUrl: "/CreatorsNYC.png",
@@ -45,11 +50,6 @@ const userData = {
       imgUrl: "/Portfolio.jpg",
     },
     {
-      title: "Lifecycle",
-      link: "https://lifecycle380.herokuapp.com",
-      imgUrl: "/lifecycle.jpg",
-    },
-    {
       title: "Hackathon, Environment Track Winner - reVive",
       link: "https://devpost.com/software/cuny-hackathon-2019#updates",
       imgUrl: "/revive.jpg",
@@ -65,7 +65,7 @@ const userData = {
       `My focus right now is continue improving in all of these: JS, NEXT.js, REACT.js, NODE.js, EXPRESS.js, CHAKRA-UI, TAILWIND-CSS, ETHER.js, PYTHON, SOLIDITY, TYPESCRIPT, SQL, BASH, R, C++, AWS, GCLOUD, and a lot more.`,
     ],
     currentProject: "Lifecycle",
-    currentProjectUrl: "https://lifecycle380.herokuapp.com",
+    currentProjectUrl: "https://lifecycle.vercel.app",
   },
   experience: [
     {

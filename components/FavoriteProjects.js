@@ -38,17 +38,17 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single Card */}
         <a
-            href="https://gallery.ronnycoste.com"
+            href="https://lifecycle.vercel.app"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/gallery.png"
-                alt="Gallery du Coste"
+              src="/lifecycle.png"
+              alt="Lifecycle recycling app"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Gallery Du Coste
+                Lifecycle
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -58,18 +58,18 @@ export default function FavouriteProjects() {
           
           {/* Single card */}
           <a
-            href="https://lifecycle380.herokuapp.com"
+            href="https://gallery.ronnycoste.com"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/lifecycle.jpg"
-                alt="Lifecycle recycling app"
+                src="/gallery.png"
+                alt="Gallery du Coste"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-              Lifecycle 
+              Gallery Du Coste
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
