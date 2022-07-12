@@ -10,7 +10,7 @@
     "test": "run cypress open"
   },
   "dependencies": {
-    "axios": "^0.21ya.1",
+    "axios": "^0.21.1",
     "next": "^12.1.3",
     "next-i18next": "^10.5.0",
     "next-themes": "0.2.0",
