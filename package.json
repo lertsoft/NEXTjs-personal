@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p ${PORT:=3000}",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "run cypress open"
   },
   "dependencies": {
     "axios": "^0.27.2",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
+    "cypress": "^10.3.0",
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.4",
     "postcss": "^8.3.6",
