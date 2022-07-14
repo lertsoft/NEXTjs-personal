@@ -25,6 +25,11 @@ const userData = {
       imgUrl: "/WealthAtScale.png",
     },
     {
+      title: "BeautifiedTab",
+      link: "https://chrome.google.com/webstore/detail/new-tab-photography-with/ifokjpcjioaipganojgpkemhhillgenf?hl=en&authuser=0",
+      imgUrl: "/beautifiedTab.jpg",
+    },
+    {
       title: "Template ready with my favorite tooling",
       link: "https://github.com/lertsoft/typescript_nextjs_template",
       imgUrl: "/Template.png",
