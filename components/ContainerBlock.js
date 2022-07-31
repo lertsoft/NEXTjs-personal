@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ScrollTop from "./ScrollTop";
 
-// Meta data for bots
+// Meta data for bots and container design template for the entire website.
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 

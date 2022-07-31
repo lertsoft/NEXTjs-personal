@@ -4,6 +4,7 @@ import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 import { useTranslation } from 'next-i18next';
 
+// Latest repos I have worked on component, Index/Home page component.
 export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState([]);
   const { t } = useTranslation('common');

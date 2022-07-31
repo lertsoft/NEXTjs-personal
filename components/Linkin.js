@@ -1,8 +1,9 @@
 import React from "react";
 
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
+// Link In Bio Component
  export default function Linkin() {
 
 return (

@@ -3,6 +3,7 @@ import Link from "next/link";
 import userData from "@constants/data";
 import { useTranslation } from 'next-i18next';
 
+// Latest post component of the Index/Home page.
 export default function LatestCode({ }) {
     // const [posts, setPost] = useState([]);
     const { t } = useTranslation('common');
