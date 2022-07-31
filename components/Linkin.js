@@ -13,7 +13,7 @@ return (
       <img className="object-cover rounded-full h-24 w-24 mx-auto mt-8 p-1 border-4 border-yellow-500" src="/rccolor.JPG" alt="Ronny Coste portrait"/>
       <div className="px-6 py-4 text-gray-600 dark:text-gray-300">
         <div className="flex flex-col">
-          <div className="font-bold text-xl text-center hover:cursor-pointer">@costeronny</div>
+          <div className="font-bold text-xl text-center hover:cursor-pointer">Ronny Coste</div>
           <p className="text-sm text-center">Software Engineer</p>
         </div>
       </div>
