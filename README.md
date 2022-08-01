@@ -1,6 +1,6 @@
 ## Portfolio Website For Developers 💯
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=28ADE7&lines=Personal+garden;Internet+Hub;Portfolio+Site)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=28ADE7&lines=Personal+Garden;Internet+Hub;Portfolio+Site)](https://git.io/typing-svg)
 
 **UPDATE:**
 
