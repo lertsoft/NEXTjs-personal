@@ -18,6 +18,26 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 - Scroll to top button.
 - Translation button.
 
+# Structure
+
+├── README.md                # README file
+├── next.config.js           # Next JS configuration
+├── public                   # Public folder
+│   └── locales              # English and Spanish translation files
+│   ├── images               # Images
+├── pages                    # Next JS pages
+│   ├── api                  # api's and easter
+├── components               # Components and other utilities.
+├── styles                   # PostCSS style folder with Tailwind
+├── lib                      # API fetch
+├── fonts                    # Fonts
+├── cypress                  # Testing files
+├── constants                # Constant data and information.
+├── demo-images              # Demo Images for the Readme file
+├── tailwind.config.js       # Tailwind CSS configuration
+├── cypress.config.js        # End-to-End Testing
+└── next-i118next.config.js  # i18n configuration
+
 # Pages
 
 I've kept the pages as simple as possible. Only the required sections are included with minimal content.
@@ -46,6 +66,10 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ![Hompage](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/contact.png)
 
+## Link In Bio
+
+![Hompage](https://github.com/lertsoft/NEXTjs-personal/blob/main/demo-images/linkIn.jpg)
+
 # Tech Stack
 
 The website is built in my favourite Tech Stack and deployed on [Vercel](https://vercel.com)
@@ -55,6 +79,7 @@ The website is built in my favourite Tech Stack and deployed on [Vercel](https:/
 - [tailwindcss](https://tailwindcss.com) for styling.
 - [React Rough Notation](https://roughnotation.com) for Hero section highlighting.
 - [Vercel](https://vercel.com) for deployments and CI/CD.
+- [Cypress](https://go.cypress.io) for End-to-End Testing.
 
 # Usage
 
