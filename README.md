@@ -20,6 +20,8 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 
 # Structure
 
+```
+.
 ├── README.md                # README file
 ├── next.config.js           # Next JS configuration
 ├── public                   # Public folder
@@ -37,6 +39,7 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 ├── tailwind.config.js       # Tailwind CSS configuration
 ├── cypress.config.js        # End-to-End Testing
 └── next-i118next.config.js  # i18n configuration
+```
 
 # Pages
 
