@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const words = ["Javascript", "Next.js", "React.js", "Node.js", "Express.js", "Chakra-UI", "Tailwind-CSS", "Ether.js", "Python", "Solidity", "Typescript", "SQL", "Bash", "R", "C++", "AWS", "GCloud", "And a lot more!"];
 
 // Unused component
-// Will think though were this could be used in the future.
+// Will think through where this could be used in the future.
 export default function Home() {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);

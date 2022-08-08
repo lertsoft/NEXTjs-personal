@@ -1,3 +1,11 @@
 {
-    "description": "All Rights Reserved."
+    "description": "All Rights Reserved.",
+    "about": "About",
+    "gallery": "Gallery",
+    "me": "That's me!",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "store": "Store"
+
 }

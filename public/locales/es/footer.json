@@ -1,3 +1,10 @@
 {
-    "description": "Todos los Derechos Reservados."
+    "description": "Todos los Derechos Reservados.",
+    "projects": "Proyectos",
+    "about": "Acerca",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "gallery": "Galería",
+    "store": "Tienda"
+   
 }

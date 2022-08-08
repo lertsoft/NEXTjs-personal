@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Ronny Coste - Developer. Photographer. FilmMaker. Creator.",
+    title: "Ronny Coste - Developer. Photographer. Writer. Creator.",
     description: `I am Ronny Coste. software Engineer and Photographer based in NYC. This site was built with Next.js, React, and Tailwind-CSS.`,
     image: "/rccolor.JPG",
     type: "website",
