@@ -1,5 +1,7 @@
 ## Portfolio Website For Developers 💯
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=28ADE7&lines=Personal+Garden;Internet+Hub;Portfolio+Site)](https://git.io/typing-svg)
+
 **UPDATE:**
 
  Included the `constants` folder, where you can directly add your details and it'll get reflected throughout the application. No more customizations for the template required, just add your data and it'll reflect immediately.
