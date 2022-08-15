@@ -6,13 +6,13 @@ export default function Banner() {
     <div className="dark:text-white">
       {visible && (
         <div className="text-sm md:text-md px-10 relative mx-auto text-center bg-gradient-to-r from-red-300 via-green-500 to-blue-300 py-3 font-normal">
-          🖌 Check out my blog &nbsp;
+          🖌 Check out my interactive &nbsp;
           <a
-            href="https://blog.ronnycoste.com"
+            href="https://resume.ronnycoste.com"
             target="__blank"
             className="underline font-semibold"
           >
-            Musings of Ronny
+            Resume!
           </a>
           &nbsp; 🖌
           <button

@@ -78,7 +78,7 @@ const userData = {
       company: "Belle Image Productions",
       year: "2021 - Present",
       companyLink: "https://belleimageproduction.com",
-      desc: " Collaborated with the Director & Producer to create films that encapsulate the clients’ goals. Executed the Director’s vision and feel of the film without concise information from the director.  ",
+      desc: "Collaborated with the Director & Producer to create films that encapsulate the clients’ goals. Executed the Director’s vision and feel of the film without concise information from the director.  ",
     },
     {
       title: "Software Developer Fellow",
@@ -99,7 +99,7 @@ const userData = {
       company: "Cuny Hackathon",
       year: "2019",
       companyLink: "https://devpost.com/software/cuny-hackathon-2019#updates",
-      desc: " * Won the sustainable award and Second best application out of 20 teams. *Created a user-friendly application in a team of 5 that uses the smartphone camera to snap a photograph and uses firebase cloud computers to analyze objects and demonstrate where you can recycle them. *Developed using react Native to code the mobile app and used the Earth911 and NYCopendata API to gather recycling information. Visualized the layout and color palette of the application using Adobe XD and Figma.",
+      desc: "Won the sustainable award and Second best application out of 20 teams. *Created a user-friendly application in a team of 5 that uses the smartphone camera to snap a photograph and uses firebase cloud computers to analyze objects and demonstrate where you can recycle them. Developed using react Native to code the mobile app and used the Earth911 and NYCopendata API to gather recycling information. Visualized the layout and color palette of the application using Adobe XD and Figma.",
     },
     {
       title: "Staff",
@@ -147,10 +147,22 @@ const userData = {
   ],
   BlogPost: [
     {
-      title: "Decentralized Front-End with IPFS",
-      desc: "My experience hosting my personal website on IPFS.",
-      link: "https://blog.ronnycoste.com/decentralized-front-end-with-ipfs",
-      date:"07.01.2022",
+      title: "Japanese Crashcourse",
+      desc: "The little things that I know in japanese are here.",
+      link: "https://blog.ronnycoste.com/japanese",
+      date:"08.12.2022",
+    },
+    {
+      title: "Values worksheet",
+      desc: "My personal values on a blog post. This worksheet I finished back in 2020 that i felt i needed because i was drifting apart from what was truly important to me.",
+      link: "https://blog.ronnycoste.com/values-worksheet",
+      date:"06.09.2022",
+    }, 
+    {
+      title: "24 failures & Successes by the age of 24",
+      desc: "My successes and failures.",
+      link: "https://blog.ronnycoste.com/my_failures_and_successes",
+      date:"05.30.2022",
     },
     {
       title: "Why did I choose NextJS to build my websites?",
@@ -159,16 +171,16 @@ const userData = {
       date:"06.17.2022",
     },
     {
-      title: "Values worksheet",
-      desc: "My personal values on a blog post. This worksheet I finished back in 2020 that i felt i needed because i was drifting apart from what was truly important to me.",
-      link: "https://blog.ronnycoste.com/values-worksheet",
-      date:"06.09.2022",
+      title: "My Favorite Apps",
+      desc: "This are the apps that I use on a day to day basis",
+      link: "https://blog.ronnycoste.com/my-favorite-apps",
+      date:"07.28.2022",
     },
     {
-      title: " 24 failures & Successes by the age of 24",
-      desc: "My successes and failures.",
-      link: "https://blog.ronnycoste.com/my_failures_and_successes",
-      date:"05.30.2022",
+      title: "Decentralized Front-End with IPFS",
+      desc: "My experience hosting my personal website on IPFS.",
+      link: "https://blog.ronnycoste.com/decentralized-front-end-with-ipfs",
+      date:"07.01.2022",
     },
   ],
   resumeUrl:

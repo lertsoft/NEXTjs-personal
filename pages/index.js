@@ -24,7 +24,7 @@ export default function Home({ repositories }) {
   <link rel="manifest" href="/manifest.json" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/maskable_icon_x384.png"></link>
-</Head>;
+</Head>
     {/* Banner is not on container block because it can mess up the syling after closing it. */}
     <Banner /> 
     <ContainerBlock
