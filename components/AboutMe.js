@@ -5,6 +5,7 @@ import Link from "next/link";
 import { RainbowHighlight } from "./RainbowHighlight";
 
 import { RoughNotation } from "react-rough-notation";
+import Image from "next/image";
 
 // About me component
 // Tech Stacks, social link texts, and resume.
@@ -201,11 +202,31 @@ export default function AboutMe() {
             
             {/* Images */}
             <div className="flex flex-row flex-wrap mt-8">
-              <img
+            <img
+                src="https://skillicons.dev/icons?i=js,html,css,bash,cpp,perl,py,r,react,solidity,ts"
+                alt="Programming languages Ronny Knows"
+                className="mx-4 my-4"
+              />
+               <img
+                src="https://skillicons.dev/icons?i=wasm,angular,d3,electron,express,nextjs,nodejs,nuxtjs,redux,sass,styledcomponents,vite,vue,webpack"
+                alt="Libraries and frameworks Ronny Knows"
+                className="mx-4 my-4"
+              />
+               <img
+                src="https://skillicons.dev/icons?i=aws,azure,cloudflare,docker,firebase,git,github,linux,md,bsd,mongodb,mysql,postgres,raspberrypi"
+                alt="Infraestructures tools Ronny Knows"
+                className="mx-4 my-4"
+              />
+               <img
+                src="https://skillicons.dev/icons?i=au,ai,ps,pr,bootstrap,figma,tailwind"
+                alt="Designing tools Ronny Knows"
+                className="mx-4 my-4"
+              />
+              {/* <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4" alt="Javascript logo"
-              />
-              <img
+              /> */}
+              {/* <img
                 src="https://raw.githubusercontent.com/nodejs/nodejs.org/main/static/legacy/images/logo-header.png"
                 className="h-20 w-20 mx-4 my-4" alt="Node JS logo"
               />
@@ -271,7 +292,7 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/adobe/business-website/main/styles/favicon.svg"
                 className="h-20 w-20 mx-4 my-4" alt="Adobe logo"
               />
-                
+                 */}
             </div>
           </div>
         </div>

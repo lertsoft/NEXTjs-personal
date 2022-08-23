@@ -8,6 +8,9 @@ module.exports = withPWA ({
     register: true,
     skipWaiting: true,
   },
+  images: {
+    domains: ['skillicons.dev'],
+  },
 });
 
 /* eslint-disable import/no-extraneous-dependencies */
