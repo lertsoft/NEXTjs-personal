@@ -15,9 +15,9 @@ const userData = {
       imgUrl: "/lifecycle.png",
     },
     {
-      title: "CreatorsNYC Website - Not finished",
-      link: "https://creatorsnyc.vercel.app",
-      imgUrl: "/CreatorsNYC.png",
+      title: "Curated By",
+      link: "https://curatedby.ronnycoste.com",
+      imgUrl: "/curatedby.jpg",
     },
     {
       title: "Wealth at scale of Jeff Bezoz",
@@ -74,7 +74,14 @@ const userData = {
   },
   experience: [
     {
-      title: "Director of Photography & Camera Assistant ",
+      title: "Director of Photography & Camera Assistant Freelancer ",
+      company: "Freelancer",
+      year: "2021 - Present",
+      companyLink: "",
+      desc: "Managed new clients creative accounts, collaborated with research companies and marketing departments to create content relevant to their audiences.",
+    },
+    {
+      title: "Director of Photography & Camera Assistant Contractor",
       company: "Belle Image Productions",
       year: "2021 - Present",
       companyLink: "https://belleimageproduction.com",
