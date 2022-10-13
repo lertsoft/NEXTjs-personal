@@ -10,14 +10,30 @@ const userData = {
   address: "New york, NY",
   projects: [
     {
+      title: "Curated By",
+      link: "https://curatedby.ronnycoste.com",
+      imgUrl: "/curatedby.jpg",
+    },
+    {
+      title: "Cinema",
+      link: "https://cinemato.vercel.app",
+      imgUrl: "/cinema.jpg",
+    },
+    {
       title: "Lifecycle",
       link: "https://lifecycle.vercel.app",
       imgUrl: "/lifecycle.png",
     },
+
     {
-      title: "Curated By",
-      link: "https://curatedby.ronnycoste.com",
-      imgUrl: "/curatedby.jpg",
+      title: "Three JS",
+      link: "https://vanilla3d.netlify.app",
+      imgUrl: "/three.jpg",
+    },
+    {
+      title: "Resume",
+      link: "https://resume.ronnycoste.com",
+      imgUrl: "/resume.jpg",
     },
     {
       title: "Wealth at scale of Jeff Bezoz",
