@@ -40,6 +40,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        {/* <!-- Cloudflare Web Analytics --> */}
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2e17663f8c33412a9b579e1935142566"}'></script>
+        {/* <!-- End Cloudflare Web Analytics --> */}
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
