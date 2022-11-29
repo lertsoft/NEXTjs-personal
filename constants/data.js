@@ -16,7 +16,7 @@ const userData = {
     },
     {
       title: "Cinema",
-      link: "https://cinemato.vercel.app",
+      link: "https://cinema.ronnycoste.com",
       imgUrl: "/cinema.jpg",
     },
     {
